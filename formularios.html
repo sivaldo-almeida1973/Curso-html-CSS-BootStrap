@@ -12,23 +12,67 @@
 
   <h2>Login</h2>
 
-  <form action="">
+  <form action="processa.php">
 
-  <span>E-mail</span>  <br>
-  <input type="text" name="login">  <br>
+      <span>E-mail</span>  <br>
+      <input type="text" name="login">  <br>
 
-  <span>Senha:</span> <br>
-  <input type="password" name="senha">  <br>  <br>
+      <span>Senha:</span> <br>
+      <input type="password" name="senha">  <br>  <br>
 
-  <button type="submit" value="logar">Enviar</button>
-   
-
-
-
+      <button type="submit" value="logar">Login</button>
+    
 
   </form>
 
+  <hr>
 
+  <h2>Cadastre-se</h2>
+  
+  <form action=" ">
+
+      <span>Login:</span>  <br>
+      <input type="text " name="login"> <br> <br>
+
+      <span>Sexo:</span>  <br>
+      <!--Podemos scolher somente uma opção-->
+      <!--para não ficar os 2 marcados o name devem ser identicos-->
+      <!--para identificar devemos atribuir o value diferente-->
+      <input type="radio" name="sexo" value="M">  Masculino <br>
+      <input type="radio" name="sexo" value="F">  Feminino  <br>  <br>
+
+
+      <span>Interesses:</span>  <br>
+      <!--podemos escolher varias opções-->
+      <input type="checkbox" name="Interesses"> Futebol <br>
+      <input type="checkbox" name="Interesses"> Futebol <br>
+      <input type="checkbox" name="Interesses"> Futebol <br>
+      <input type="checkbox" name="Interesses"> Futebol <br>  <br><br>
+
+
+    <!--para uqando temos uma lista grande de escolha-->
+      <span>Estados:</span> 
+
+      <select name="" id="">
+
+        <option value="">Pará</option>
+        <option value="">Pará</option>
+        <option value="">Pará</option>
+        <option value="">Pará</option>
+        <option value="">Pará</option>
+        <option value="">Pará</option>
+      </select>  <br> <br>
+
+
+      <span>Observações:</span>  <br>
+
+      <textarea name="" id="" cols="30" rows="10"></textarea>  <br>
+
+      <input type="submit" value="cadastrar">
+
+
+
+</form>
 
   <br><br><br>
 
