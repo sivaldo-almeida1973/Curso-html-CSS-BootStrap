@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+body {
+  background: #d2d2c1 url(imagem/fundo.png) ;
+  font: 16px Arial, Hevetica, sans-serif;
+  
+}
+.menu {
+  background: #c5c5b2;
+  padding: 18px;
+}
+
+#principal {
+  width: 900px;
+}
+
+
+.sobre {
+  background: white;
+  
+  padding: 20px;
+}
+
+.sobre h3 {
+  color: rgb(167, 161, 153);
+  padding-bottom: 10px;
+}
+
+div ul {
+  padding: 30px;
+}
+
+div ul a {
+  font-family: fantasy;
+  font-weight: 500;
+  padding: 10px;
+  color: rgb(162, 158, 152);
+  text-decoration: none;
+
+
+}
+
+img {
+  border: 1px double;
+}
