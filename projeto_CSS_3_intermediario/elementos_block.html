@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elementos inline, block, inline-block</title>
+
+
+
+  <style>
+    .borda {
+      border: 1px solid red;
+     /* display: inline;  /*altera de block pra inline*/
+    }
+  
+    .borda2 {
+      border: 1px solid red;
+      display: block;  /*altera de block pra inline*/
+    }
+
+    .borda3 {
+      border: 1px solid red;
+      display: inline-block ;  /*altera de block pra inline*/
+      margin: 5px ;
+    }
+
+
+  </style>
+
+
+</head>
+<body>
+
+  <h1> Elementos tipo block </h1>
+
+  <p>Ocupa todo o espaço da tela e fica um abaixo do outro:</p>
+
+ 
+  <ul>
+    <span>Ex:</span>
+    <li>h1</li>
+    <li>paragrafo (p)</li>
+    <li>table </li>
+    <li>div </li>
+  </ul>
+
+  <h1 class="borda">bloco 1</h1>
+  <h1 class="borda">bloco 2</h1>
+
+
+
+  <h1> Elementos tipo inline </h1>
+
+  <p>Ocupa todo o espaço da tela e fica um abaixo do outro:</p>
+
+  <ul>
+    <span>Ex:</span>
+    <li> tag (a)</li>
+    <li>tag span </li>
+    <li>tag Img</li>
+  </ul>
+
+  <span class="borda2">inline 1</span>
+  <span class="borda2">inline 1</span>
+
+
+  <h1> Elementos tipo inline-block </h1>
+
+  <p>Cada elemento fica um abixo do outro, a largura da caixa é de acordo com o conteúdo e só quebra pra outro linha quando não couber mais:</p>
+
+  <ul>
+    <span>Ex:</span>
+
+    <li> display: inline block</li>
+
+
+    <span class="borda3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate minus et reprehenderit mollitia aut, nisi repellat non unde minima a voluptatum nihil ullam perspiciatis dignissimos accusamus reiciendis. Dolor, nihil beatae!
+    </span>
+    <span class="borda3">lorem </span>
+    
+  </ul>
+
+
+
+
+
+    
+
+  
+  
+</body>
+</html>
