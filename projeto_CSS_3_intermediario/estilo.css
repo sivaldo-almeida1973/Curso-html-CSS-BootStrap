@@ -9,15 +9,23 @@ body {
 #principal {
   width: 900px;
   margin: auto;
+  position: relative;
+  
  
  
 }
 
-header {
+.header {
   background: #2e1717;
   padding: 20px;
   background-attachment: scroll;
   background:  url(../imagens/ferrari.jpg) center ;
+  position: fixed;
+  top: 0px;
+  width: 900px;
+  display: inline-flex;
+  height: 200px;
+ 
  
 }
 header h1 {
@@ -28,18 +36,27 @@ header h1 {
   color: rgb(54, 18, 18);
   
 }
+.cabecalho {
+  
+
+}
 
 
 .conteudo {
   background: rgb(201, 84, 84);
   height: 80px;
- 
   padding-top: 20px;
+  margin-bottom: 200px;
  
 
 }
 nav .conteudo {
   padding-top: 20px;
+  margin-top: 98px;
+  position: fixed;
+  width: 900px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
   
 }
 .conteudo  a {
@@ -55,10 +72,9 @@ nav .conteudo {
 .conteudo_principal {
   padding: 20px;
   background: rgb(243, 242, 241);
-  
-
-  
-  
+ 
+  margin-top: 98px;
+ 
 }
 
 .conteudo_principal h1 {
