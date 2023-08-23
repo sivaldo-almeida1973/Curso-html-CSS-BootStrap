@@ -18,15 +18,10 @@ body {
 .header {
   background: #2e1717;
   padding: 20px;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background:  url(../imagens/ferrari.jpg) center ;
-  position: fixed;
-  top: 0px;
-  width: 900px;
-  display: inline-flex;
   height: 200px;
- 
- 
+
 }
 header h1 {
   font-family: 'Courier New', Courier, monospace;
@@ -36,26 +31,20 @@ header h1 {
   color: rgb(54, 18, 18);
   
 }
-.cabecalho {
-  
-
-}
 
 
 .conteudo {
   background: rgb(201, 84, 84);
   height: 80px;
   padding-top: 20px;
-  margin-bottom: 200px;
- 
 
 }
 nav .conteudo {
   padding-top: 20px;
-  margin-top: 98px;
-  position: fixed;
-  width: 900px;
-  margin-bottom: 80px;
+ 
+  background-attachment: fixed;
+ 
+ 
   box-sizing: border-box;
   
 }
@@ -73,7 +62,6 @@ nav .conteudo {
   padding: 20px;
   background: rgb(243, 242, 241);
  
-  margin-top: 98px;
  
 }
 
