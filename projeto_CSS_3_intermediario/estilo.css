@@ -40,11 +40,8 @@ header h1 {
 
 }
 nav .conteudo {
-  padding-top: 20px;
- 
+  padding-top: 20px; 
   background-attachment: fixed;
- 
- 
   box-sizing: border-box;
   
 }
@@ -54,15 +51,11 @@ nav .conteudo {
   padding-left: 20px;
   text-decoration: none;
   
- 
- 
 }
 
 .conteudo_principal {
   padding: 20px;
-  background: rgb(243, 242, 241);
- 
- 
+  background: rgb(243, 242, 241); 
 }
 
 .conteudo_principal h1 {
