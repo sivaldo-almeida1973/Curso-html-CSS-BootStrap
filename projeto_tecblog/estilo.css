@@ -28,37 +28,31 @@ body {
 
 #area-principal {
   background: rgb(201, 193, 193);
-  width: 1120px; /* largura fixa */
+  width: 920px; /* largura fixa */
   margin: 0 auto; /*faz o conteudo cetralizar*/
   padding: 15px;
 }
 
 #area-postagens {
   background: rgb(227, 148, 0);
-  width: 760px;
+  width: 660px;
   float: left;
 
 }
 
 #area-lateral {
   background: rgb(216, 159, 3);
-  width: 340px;
+  width: 240px;
   float: right;
 }
 .postagem {
   padding: 20px;
   margin-bottom: 20px;
   background: white;
-  height: 400px;
+  
 
 }
-.infantil1 {
-  border:  1px solid red;
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 10px;
-}
+
 
 
 #rodape {
@@ -69,9 +63,7 @@ body {
 }
 
 p  {
-  font-size: 10px;
-  width: 200px;
-  height: auto;
+ 
 }
 
 
