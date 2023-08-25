@@ -13,35 +13,37 @@ body {
 }
 
 
-#cabecalho {
+#area-cabecalho {
   background:orange;
   text-align: center;
   padding: 15px;
- 
-  
+   
 }
-.logo, .menu{
+area-logo, .menu{
   padding: 10px;
   
  
 }
 
+
 #area-principal {
-  background: rgb(201, 193, 193);
+  background: rgb(250, 247, 247);
   width: 920px; /* largura fixa */
   margin: 0 auto; /*faz o conteudo cetralizar*/
   padding: 15px;
 }
 
+
+
 #area-postagens {
-  background: rgb(227, 148, 0);
+ 
   width: 660px;
   float: left;
 
 }
 
 #area-lateral {
-  background: rgb(216, 159, 3);
+  
   width: 240px;
   float: right;
 }
@@ -51,6 +53,11 @@ body {
   background: white;
   
 
+}
+.conteudo-lateral {
+  background: white;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -62,35 +69,33 @@ body {
   padding: 15px;
 }
 
-p  {
- 
-}
 
+/*formatação menu*************/
 
-/*formatação menu*/
+/*formatação padrao a todos os links geral */
 a{
   text-decoration: none;
 }
 a:link, a:visited {
-  padding: 8px 12px;
-  color: white;
+ 
+  color: #f7b600;
   
 }
 a:hover {
-  color: coral;
-  background: white;
+  text-decoration: underline;
   
 }
 
-
-#cabecalho a:link, #cabecalho a:visited {
+/* formatção para links que estao dentro area-cabecalho */
+#area-cabecalho a:link, #area-cabecalho a:visited {
   padding: 8px 12px;
   color: white;
   
 }
-#cabecalho a:hover {
+#area-cabecalho a:hover {
   color: coral;
   background: white;
+  text-decoration: none;
   
 }
 
@@ -106,6 +111,11 @@ h1 {
 h2 {
   color: #f7b600;
 }
+h3 {
+  background: #c1c1c1;
+  padding: 5px;
+  color: rgb(0, 235, 55);
+}
 
 
 .branco {
@@ -115,6 +125,18 @@ h2 {
 
 
 
-.menu a {
+.data-postagem {
+  font-size: .8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
   
+}
+
+.texto-lateral {
+  font-size: .8em;
+  padding: 5px;
+  border-bottom: 1px solid;/* criar linha */
+
 }
