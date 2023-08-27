@@ -1,0 +1,75 @@
+/*seletor universal****************
+
+*{
+   border: 1px solid #001aff;
+
+}
+
+/*******************************
+Seletor de texto      
+
+h1 {
+  color: aqua;
+}
+
+
+
+
+/***************************
+seletor de classe 
+
+.verde {
+  color: rgb(0, 255, 0);
+}
+
+p.verde {
+  color: rgb(2, 255, 2);
+}
+
+/****************************
+seletor de id    
+
+#cabecalho {
+  border: 1px solid rgb(94, 239, 32);
+}
+
+*/
+
+/*******************************
+seletor de filho    */
+/* link que são filho de li    
+
+li>a{
+  color: red;
+  background: rgb(27, 218, 100);
+  text-decoration: none;
+}
+
+
+ */
+
+ /* *********************************
+ seletor de descendente
+
+p a {
+  color: orange;
+}
+
+*/
+
+/*********************************
+ seletor adjacente ,  posterior 
+
+ h1+p {
+  color: rgb(244, 3, 3);
+
+ }
+
+*/
+
+/*  *********************************
+seletor de irmao geral,  */
+
+h1~p {
+  color: rgb(30, 210, 99);
+}
