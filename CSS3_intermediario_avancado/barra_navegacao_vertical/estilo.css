@@ -1,0 +1,41 @@
+/* barra de navegação vertical*/
+
+/*
+ul {
+  
+  list-style: none;/*retira os pontos da lista
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+ 
+  padding:5px 20px;
+  background: url(imagem/seta.png)  no-repeat left center;
+
+}
+
+*/
+
+ul {
+ 
+  margin: 0;
+  padding: 0;
+  list-style: none; /*retira os pontinhas da lista*/
+}
+
+ul a {
+  width: 200px;
+  height: 40px;
+  display: block;/* a tag <a> é inline, por isso tranformei em block para poder alterar tamnho e largura*/
+  color: #000;
+  text-decoration: none;
+  text-indent: 40px; /* empurra o texto pra frente*/
+  line-height: 40px;/*centraliza o texto*/
+  border: 1px solid rebeccapurple;
+  background: url(imagem/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+  background-position: right bottom; /* vai trocar a imagem*/
+}
