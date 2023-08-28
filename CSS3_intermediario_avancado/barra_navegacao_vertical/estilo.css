@@ -32,10 +32,23 @@ ul a {
   text-decoration: none;
   text-indent: 40px; /* empurra o texto pra frente*/
   line-height: 40px;/*centraliza o texto*/
-  border: 1px solid rebeccapurple;
-  background: url(imagem/menu.png) no-repeat left bottom;
+  background: #f7b600 url(imagem/menu.png) no-repeat left bottom;
 }
 
-a:hover {
+a:hover, .selecionado a {
   background-position: right bottom; /* vai trocar a imagem*/
+  background: red;
+  color: white;
+}
+
+#home #navegar .home a,
+#sobre #navegar .sobre a,
+#servicos #navegar .servicos a,
+#noticias #navegar .noticias a,
+#contatos #navegar .contatos a
+ {
+  background-position: right bottom; /* vai trocar a imagem*/
+  background: red;
+  color: white;
+
 }
