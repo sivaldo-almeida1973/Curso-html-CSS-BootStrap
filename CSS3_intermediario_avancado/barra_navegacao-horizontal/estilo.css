@@ -1,0 +1,55 @@
+/*********************************
+barra de navegação horizontal  */
+
+ul {
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 720px;
+  background: #159cb0 url(imagem/fundo-horizontal.png) repeat-x;
+  float: left;
+}
+
+ul li {
+  float: left;
+ /*display: inline-block;   deixa um ao lado do outro*/
+}
+
+ul a {
+  display: block; /* mudar display para block*/
+  text-decoration: none;
+  padding: 0  2em;
+  font-family: fantasy;
+  line-height: 3em; /*controla espaçamento sup e inf (substitui o padding) */
+  color: white;
+  /*border-left: 1px solid white;*/
+  background: url(imagem/divisor.png) repeat-y left top;
+
+
+
+}
+ul .primeiro a {
+  background: none;
+}
+
+ul a:hover {
+  color: rgb(247, 62, 0);
+  background: rgb(255, 255, 255);
+}
+
+
+/* fazer marcação da pagina */
+
+#home #navegar .home a, 
+#sobre #navegar .sobre a, 
+#servicos #navegar .servicos a, 
+#noticias #navegar .noticias a, 
+#contatos #navegar .contatos a
+{
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #040000;
+
+}
+
